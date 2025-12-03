@@ -1,7 +1,7 @@
 from textblob import TextBlob
 import wikipedia
 
-def search_wikipedia(name, sentences=3):
+def search_wikipedia(name):
     """Search Wikipedia for a given name and return a summary."""
     print(f"Searching Wikipedia for: {name}")
     return wikipedia.search(name)
