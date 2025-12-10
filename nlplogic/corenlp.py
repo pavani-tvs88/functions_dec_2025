@@ -6,7 +6,7 @@ def search_wikipedia(name):
     print(f"Searching Wikipedia for: {name}")
     return wikipedia.search(name)
 
-def summarize_wikipedia(name, sentences=3):
+def summarize_wikipedia(name):
     """Get a summary from Wikipedia for a given name."""
     print(f"Getting summary from Wikipedia for name: {name}")
     return wikipedia.summary(name)

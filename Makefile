@@ -4,7 +4,7 @@ install:
 	python -m textblob.download_corpora
 
 test:
-	python -m pytest -vv test_*.py
+	python -m pytest -vv --cov=wikiphrases --cov=nlplogic test_corenlp.py
 
 format:
 	black *.py
